@@ -39,4 +39,8 @@ echo "If you wish to do an automated setup - connect and unlock your device now"
 mode="auto"
 read -p "Pick a mode [auto]: " tmp
 if [[ "$tmp" != "" ]]; then mode=$tmp; unset tmp ; fi
-echo $mode # Temporary
+
+# Temporary
+
+echo $mode 
+rm orangefox_build.config
