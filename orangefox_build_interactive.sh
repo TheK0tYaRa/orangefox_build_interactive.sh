@@ -41,6 +41,5 @@ read -p "Pick a mode [auto]: " tmp
 if [[ "$tmp" != "" ]]; then mode=$tmp; unset tmp ; fi
 
 # Temporary
-
 echo $mode 
 rm orangefox_build.config
